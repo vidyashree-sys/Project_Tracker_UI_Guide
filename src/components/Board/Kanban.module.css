@@ -1,0 +1,26 @@
+.board { display: flex; gap: 20px; padding: 20px; overflow-x: auto; background: #f8f9fa; height: calc(100vh - 160px); align-items: flex-start; }
+.column { background: #ebedf0; border-radius: 10px; min-width: 280px; padding: 12px; display: flex; flex-direction: column; gap: 12px; min-height: 200px; }
+.header { font-weight: 700; color: #172b4d; display: flex; justify-content: space-between; margin-bottom: 8px; }
+.count { background: #dfe1e6; padding: 2px 8px; border-radius: 12px; font-size: 11px; }
+
+.card { background: white; padding: 14px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12); cursor: grab; position: relative; }
+.dragging { opacity: 0.4; }
+
+.presenceArea { height: 16px; margin-bottom: 6px; }
+.presenceBadge { display: flex; align-items: center; gap: 4px; }
+.pulseDot { color: #36b37e; font-size: 14px; animation: pulse 1.5s infinite; }
+.presenceName { font-size: 10px; font-style: italic; color: #6b778c; }
+
+@keyframes pulse {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.taskTitle { margin: 0 0 12px 0; font-size: 14px; font-weight: 500; color: #172b4d; line-height: 1.4; }
+.footer { display: flex; justify-content: space-between; align-items: center; }
+.critical { background: #ffebe6; color: #bf2600; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: 700; }
+.high { background: #fff0b3; color: #ff8b00; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: 700; }
+.medium { background: #deebff; color: #0052cc; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: 700; }
+.low { background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: 700; }
+.date { font-size: 11px; color: #6b778c; }

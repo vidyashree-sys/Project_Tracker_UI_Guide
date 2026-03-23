@@ -1,0 +1,83 @@
+.timelineContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: white;
+  overflow: auto;
+}
+
+.dateHeader {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: #f8f9fa;
+  border-bottom: 2px solid #dfe1e6;
+  z-index: 10;
+}
+
+.labelSpacer {
+  min-width: 200px;
+  padding: 15px;
+  font-weight: bold;
+  border-right: 1px solid #dfe1e6;
+}
+
+.daysRow {
+  display: flex;
+}
+
+.dayCol {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0;
+  border-right: 1px solid #eee;
+  font-size: 10px;
+}
+
+.dayNum { font-weight: bold; font-size: 14px; }
+
+.rowsContainer {
+  padding-bottom: 100px;
+}
+
+.row {
+  display: flex;
+  border-bottom: 1px solid #f4f5f7;
+  height: 45px;
+  align-items: center;
+}
+
+.taskLabel {
+  min-width: 200px;
+  padding: 0 15px;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-right: 1px solid #dfe1e6;
+}
+
+.track {
+  position: relative;
+  flex: 1;
+  height: 100%;
+  background-image: linear-gradient(to right, #f4f5f7 1px, transparent 1px);
+  background-size: 60px 100%; /* Matches dayCol width */
+}
+
+.bar {
+  position: absolute;
+  top: 10px;
+  height: 25px;
+  background: #0052cc;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 11px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}

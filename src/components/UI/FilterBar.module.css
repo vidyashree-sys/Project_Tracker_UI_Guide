@@ -1,0 +1,51 @@
+.filterBar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 24px;
+  background: white;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #5f6368;
+}
+
+.chips {
+  display: flex;
+  gap: 8px;
+}
+
+.chip {
+  padding: 6px 14px;
+  border-radius: 16px;
+  border: 1px solid #dadce0;
+  background: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #3c4043;
+}
+
+.chip:hover {
+  background: #f1f3f4;
+}
+
+.active {
+  background: #e8f0fe !important;
+  color: #1a73e8 !important;
+  border-color: #1a73e8 !important;
+  font-weight: 500;
+}
+
+.clear {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #d93025;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
