@@ -8,7 +8,7 @@ The application demonstrates advanced frontend engineering concepts including cu
 
 ## Live Demo
 
-Live Deployment: project-tracker-ui-guide.vercel.app
+Live Deployment: [ project-tracker-ui-guide.vercel.app](https://project-tracker-ui-guide.vercel.app/)
 
 Repository: [(Add your GitHub repository link here)](https://github.com/vidyashree-sys/Project_Tracker_UI_Guide.git)
 
