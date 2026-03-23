@@ -10,7 +10,7 @@ The application demonstrates advanced frontend engineering concepts including cu
 
 Live Deployment: project-tracker-ui-guide.vercel.app
 
-Repository: (Add your GitHub repository link here)
+Repository: [(Add your GitHub repository link here)](https://github.com/vidyashree-sys/Project_Tracker_UI_Guide.git)
 
 ---
 
@@ -145,8 +145,8 @@ The generated dataset includes overdue tasks and tasks without start dates to te
 
 Clone the repository:
 
-git clone YOUR_REPOSITORY_LINK
-
+git clone [YOUR_REPOSITORY_LINK
+](https://github.com/vidyashree-sys/Project_Tracker_UI_Guide.git)
 Install dependencies:
 
 npm install
